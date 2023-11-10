@@ -1,0 +1,57 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  color: white;
+  background-color: black;
+  float: left;
+  position: relative;
+  margin-top: 2%;
+  left: 30%;
+  width: 40%;
+  overflow-y: hidden;
+}
+
+h1 {
+  font-family: monospace;
+}
+
+h1.title {
+  font-size: 4.5em;
+  padding: 0px;
+  margin: 0px;
+}
+
+hr {
+  margin-bottom: 4%;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+li {
+  line-height: 1.4em;
+  font-size: 1.2em;
+  list-style-type: none;
+}
+
+a.back {
+  font-size: 1.2em;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(201, 206, 255);
+}
+
+a:hover {
+  text-decoration: underline;
+}
